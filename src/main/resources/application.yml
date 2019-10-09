@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://192.168.110.6/demo3?serverTimezone=GMT%2B8&useSSL=false&autoReconnect=true
+    password: yp*8388608
+    username: pengknight
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 6000
