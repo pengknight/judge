@@ -4,9 +4,9 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://192.168.110.6/demo3?serverTimezone=GMT%2B8&useSSL=false&autoReconnect=true
-    password: yp*8388608
+    url: jdbc:mysql://127.0.0.1/demo3?serverTimezone=GMT%2B8&useSSL=false&autoReconnect=true
     username: pengknight
+    password: yp*8388608
     driver-class-name: com.mysql.cj.jdbc.Driver
 server:
   port: 6000
